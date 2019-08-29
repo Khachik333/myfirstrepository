@@ -1,0 +1,32 @@
+package arrays;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: Xachik
+ * Date: 8/17/19
+ * Time: 12:27 AM
+ * To change this template use File | Settings | File Templates.
+ */
+public class Reverse {
+    public static void main (String [] args){
+        int[] arr1 = {1, 2, 3, 4, 5, 6, 7, 8};
+        printArray(reverse(arr1));
+    }
+    private static int[] reverse(int[] inputArray) {
+        int[] outputArray = new int[inputArray.length];
+        int n, i;
+        n = outputArray.length;
+        int temp;
+        for (i = 0; i < n/2; i++){
+            temp = outputArray[n-i-1];
+            outputArray[n-i-1] = outputArray[i];
+            outputArray[i] = temp;
+        }
+        return outputArray;
+    }
+    private static void printArray(int[] array) {
+        for (int i=0; i < array.length; i++){
+            System.out.print (array[i]);
+        }
+    }
+}
