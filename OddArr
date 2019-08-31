@@ -1,17 +1,17 @@
 package arrays;
 
-public class OddArr {
+public class OddArray {
     public static void main(String [] args){
         printArray(createArray());
     }
     private static int[] createArray(){
-        int[] oddArr = new oddArr[10];
+        int[] odd = new odd[10];
         int n = 1;
         for(int i = 0; i < 10; i++){
-            oddArr[i] = n;
+            odd[i] = n;
             n += 2;
         }
-        return oddArr;
+        return odd;
     }
 
     private static void printArray(int[] array){
