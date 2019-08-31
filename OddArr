@@ -18,7 +18,10 @@ public class OddArray {
 
     private static void printArray(int[] array) {
         for (int i = 0; i < 10; i++) {
-            System.out.print(array[i] + ", ");
+            if (i != 9)
+               System.out.print(array[i] + ", ");
+            else
+               System.out.print(array[i] + ".");
         }
     }
 }
