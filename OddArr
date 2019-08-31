@@ -1,22 +1,22 @@
 package arrays;
 
 public class OddArr {
-    public static void main (String [] args){
+    public static void main(String [] args){
         int[] arr = new int [10];
-        printArray (createArray(Array));
-         
-        private static int[] createArray (int[] Array){
+        printArray(createArray(array));
+
+        private static int[] createArray (int[] array){
             int n = 1;
             for (int i = 0; i < 10; i++){
                 arr [i] = n;
-                n + = 2;
+                n += 2;
                 return arr;
-        }
+            }
 
         }
-        private static void printArray (int [] array){
+        private static void printArray(int[] array){
             for (int i = 0; i < 10; i++)
-            System.out.println (arr[i]);
+            System.out.println(arr[i]);
         }
     }
 }
