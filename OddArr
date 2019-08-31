@@ -7,7 +7,7 @@ public class OddArray{
     }
 
     private static int[] createArray(){
-        int[] odd = new odd[10];
+        int[] odd = new int[10];
         int n = 1;
         for(int i = 0; i < 10; i++){
             odd[i] = n;
