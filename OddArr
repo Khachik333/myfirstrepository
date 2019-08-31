@@ -5,13 +5,13 @@ public class OddArr {
         printArray(createArray());
     }
     private static int[] createArray(){
-        int[] odarr = new odarr[10];
+        int[] oddArr = new oddArr[10];
         int n = 1;
         for(int i = 0; i < 10; i++){
-            odarr[i] = n;
+            oddArr[i] = n;
             n += 2;
         }
-        return odarr;
+        return oddArr;
     }
 
     private static void printArray(int[] array){
