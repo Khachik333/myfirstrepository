@@ -4,7 +4,8 @@ public class Minimum {
     public static void main(String [] args){
         int[] minArray = new int[]{3, 5, 1, 2, 7, 8, 6};
         arrMinimum (minArray);
-    private static int [] arrMinimum (array[]) {
+    }
+    private static int[] arrMinimum(array[]) {
         int min = minArray[0];
         for (int i = 0; i != minArray.length; i++) {
             if (minArray[i] < min) {
@@ -13,6 +14,5 @@ public class Minimum {
             }
         }
         System.out.println(min);
-    }
     }
 }
