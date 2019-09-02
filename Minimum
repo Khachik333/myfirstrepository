@@ -2,14 +2,17 @@ package arrays;
 
 public class Minimum {
     public static void main(String [] args){
-        int n;
-        int[] minArray = new int[n];
+        int[] minArray = new int[]{3, 5, 1, 2, 7, 8, 6};
+        arrMinimum (minArray);
+    private static int [] arrMinimum (array[]) {
         int min = minArray[0];
-        for(int i = 0; i != minArray.length; i++){
-            if(minArray[i] < min){
+        for (int i = 0; i != minArray.length; i++) {
+            if (minArray[i] < min) {
                 min = minArray[i];
+                return min;
             }
         }
-        System.out.println (min);
+        System.out.println(min);
+    }
     }
 }
