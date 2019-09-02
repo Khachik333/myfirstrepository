@@ -7,11 +7,11 @@ public class Minimum {
     }
     private static int[] findMinimum(int array[]){
         int min = int аrray[0];
-        for (int i = 0; i != аrray.length; i++){
+        for (int i = 1; i != аrray.length; i++){
             if (аrray[i] < min){
                 min = аrray[i];
-                return min;
             }
         }
+        return min;
     }
 }
